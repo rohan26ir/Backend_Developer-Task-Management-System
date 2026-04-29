@@ -14,17 +14,12 @@ uploads/
 
 
 src/controllers/dashboard.controller.js
-src/controllers/project.controller.js
 
 
 
-
-src/models/Notification.js
-src/models/Project.js
 
 
 src/routes/dashboard.routes.js
-src/routes/project.routes.js
 
 
 
