@@ -11,20 +11,21 @@ yarn-debug.log*
 yarn-error.log*
 uploads/
 
-server.js
 
-src/config/config.js
-src/config/database.js
 src/controllers/auth.controller.js
 src/controllers/dashboard.controller.js
 src/controllers/project.controller.js
 src/controllers/task.controller.js
 src/controllers/user.controller.js
+
+
 src/middleware/auth.js
 src/middleware/errorHandler.js
 src/middleware/logger.js
 src/middleware/upload.js
 src/middleware/validation.js
+
+
 src/models/Activity.js
 src/models/Attachment.js
 src/models/Comment.js
@@ -36,6 +37,7 @@ src/models/Session.js
 src/models/Task.js
 src/models/Team.js
 src/models/User.js
+
 src/routes/activity.routes.js
 src/routes/attachment.routes.js
 src/routes/auth.routes.js
@@ -47,6 +49,7 @@ src/routes/project.routes.js
 src/routes/task.routes.js
 src/routes/team.routes.js
 src/routes/user.routes.js
+
 src/services/email.service.js
 src/utils/utils.js
 
