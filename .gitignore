@@ -19,19 +19,11 @@ src/controllers/project.controller.js
 
 
 
-
-src/models/Activity.js
-src/models/Attachment.js
-src/models/Comment.js
-src/models/Milestone.js
 src/models/Notification.js
 src/models/Project.js
 
-src/routes/attachment.routes.js
-src/routes/comment.routes.js
+
 src/routes/dashboard.routes.js
-src/routes/milestone.routes.js
-src/routes/notification.routes.js
 src/routes/project.routes.js
 
 
