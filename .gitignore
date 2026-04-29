@@ -15,7 +15,6 @@ uploads/
 
 src/controllers/dashboard.controller.js
 src/controllers/project.controller.js
-src/controllers/task.controller.js
 
 
 
@@ -27,8 +26,6 @@ src/models/Comment.js
 src/models/Milestone.js
 src/models/Notification.js
 src/models/Project.js
-src/models/Task.js
-
 
 src/routes/attachment.routes.js
 src/routes/comment.routes.js
@@ -36,7 +33,6 @@ src/routes/dashboard.routes.js
 src/routes/milestone.routes.js
 src/routes/notification.routes.js
 src/routes/project.routes.js
-src/routes/task.routes.js
 
 
 
