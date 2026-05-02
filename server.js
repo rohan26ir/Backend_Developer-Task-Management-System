@@ -104,13 +104,13 @@ app.use(errorHandler);
 
 // Database connection and server start
 mongoose.connect(process.env.MONGO_URI)
-  .then(async () => {
-    logger.info('MongoDB connected successfully');
+  // .then(async () => {
+  //   logger.info('MongoDB connected successfully');
     
-    // Initialize email service
-    // await initEmailService();
+  //   // Initialize email service
+  //   // await initEmailService();
     
-    const PORT = process.env.PORT || 5001;
+  //   const PORT = process.env.PORT || 5001;
   //   server.listen(PORT, () => {
   //     logger.info(`Server running on port ${PORT}`);
   //   });
