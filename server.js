@@ -111,13 +111,13 @@ mongoose.connect(process.env.MONGO_URI)
     // await initEmailService();
     
     const PORT = process.env.PORT || 5001;
-    server.listen(PORT, () => {
-      logger.info(`Server running on port ${PORT}`);
-    });
-  })
-  .catch((err) => {
-    logger.error('MongoDB connection error:', err);
-    process.exit(1);
-  });
+  //   server.listen(PORT, () => {
+  //     logger.info(`Server running on port ${PORT}`);
+  //   });
+  // })
+  // .catch((err) => {
+  //   logger.error('MongoDB connection error:', err);
+  //   process.exit(1);
+  // });
 
 export { app, server, io };
